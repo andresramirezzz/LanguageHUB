@@ -1,3 +1,99 @@
 # LanguageHUB
 
-hola
+LanguageHUB is a Python program created by IE Students that allows you to translate script and .docx documents to more than 30 different languages without needind internet. 
+
+
+## Description
+
+Our application uses OOP for initializing the translation program called LanguageHUB. The class contains two methods; one for text and another one for document. Depending on what the user chooses, the program will run one or another. The text is translated thanks to the library googletranslator, which includes the function Translator(). These was the most efficient and effective way of achieving a fully-working program. We also tried to include an audio-to-transcript translation but that was not feasible with out current Python knowledge. Despite this, we expect to improve and add this extension tool.
+
+
+## Installation
+Firstly, install [Python](https://www.python.org/downloads/) and [PyCharm](https://www.jetbrains.com/pycharm/download/).
+
+Once you have installed both programs you are ready to begin using LanguageHUB.
+
+Download the 'requirements.txt' and the 'LanguageHUB.py' files. Save them in a folder which would be your environment/directory.
+
+Then, install the requirements in your Python console/terminal.
+
+
+```python
+pip install -r requirements.txt
+```
+
+The next step is the final one. Open the 'LanguageHUB.py' file which is the one containing the program. 
+
+Run the code in the terminal and enjoy!
+
+```python
+python LanguageHUB.py
+```
+
+## Usage
+If every step was followed, the program should print the following message: 
+
+```python 
+Hello! Welcome to LanguageHUB.
+Currently we can only translate text or documents, 
+audio will be coming soon. What do you want to translate?
+A text or a document? Answer 'EXIT' if you want to leave 
+the program
+```
+
+Here the user will introduce the two possible options for now, either text or document. Depending on the chosen method, the program will run the text or the document translator. If the response was neither of both, the program will print an error message and will return the question again. There's an option for closing the program, which if chosen, a goodbye message will be displayed.
+
+### Document translator
+For the document translator, the program asks the user to upload the .docx document to the virtual environment and then, to tell the program which name has the document. Then, the desired name for the new translated document is asked to the user too. Finally, the destination language chosen. After this, the translated document will be saved in the virtual environment with the new name previously chosen by the user.
+
+### Text translator
+For the text translator, the program asks the user for the text that they want to translate. After this, the source language is auto-detected and the program only asks the user for the destination language. Then, the translated text is printed in the console.
+
+## Support
+In case of any problem, you could contact Nicolás Iago Aguado, which is the person in charge for attending public FAQ and issues. The email is:
+
+n.aguado.ieu2022@student.ie.edu
+
+## Roadmap
+We are planning on improving the program display, make it more like an app and not just a Python program. In addition, we would like to include PDF translator and audio translator for the next version.
+
+## Authors
+Rubén Segura: [Github]()
+
+Gonzalo Mir Segura: [Github]()
+
+Miguel Gordon: [Github]()
+
+Nicolás Iago Aguado: [Github]()
+
+Yago Moreno: [Github]()
+
+Bruno Sanchís: [Github]()
+
+## Acknowledgements
+
+This project could have not been possible without the inspiration on [translator.py](https://github.com/codebasics/cool_python_apps/blob/main/1_language_translate/translator.py) from [codebasics](https://github.com/codebasics) and their project [cool_python_apps](https://github.com/codebasics/cool_python_apps)
+
+Also, another inspiration project was [Docx-Translator](https://github.com/karayaman/Docx-Translator/blob/master/main.py) from [Karayaman](https://github.com/karayaman)
+
+## License
+
+Copyright (c) [2023] [LanguageHUB]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "LanguageHUB.py"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
