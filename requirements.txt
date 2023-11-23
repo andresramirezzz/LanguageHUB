@@ -2,4 +2,3 @@ python-docx
 googletrans
 prettytable
 colorama
-time
