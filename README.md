@@ -62,7 +62,7 @@ Rubén Segura: [Github](https://github.com/rubensegu)
 
 Gonzalo Mir: [Github](https://github.com/gonzalomirr)
 
-Miguel Gordon: [Github]()
+Miguel Gordon: [Github](https://github.com/mgordon16)
 
 Nicolás Iago Aguado: [Github]()
 
