@@ -58,15 +58,15 @@ n.aguado.ieu2022@student.ie.edu
 We are planning on improving the program display, make it more like an app and not just a Python program. In addition, we would like to include PDF translator and audio translator for the next version.
 
 ## Authors
-Rubén Segura: [Github]()
+Rubén Segura: [Github](https://github.com/rubensegu)
 
-Gonzalo Mir Segura: [Github]()
+Gonzalo Mir: [Github](https://github.com/gonzalomirr)
 
 Miguel Gordon: [Github]()
 
 Nicolás Iago Aguado: [Github]()
 
-Yago Moreno: [Github]()
+Yago Moreno: [Github](https://github.com/ymoreno2022)
 
 Bruno Sanchís: [Github]()
 
