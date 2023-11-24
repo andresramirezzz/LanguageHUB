@@ -64,11 +64,11 @@ Gonzalo Mir: [Github](https://github.com/gonzalomirr)
 
 Miguel Gordon: [Github](https://github.com/mgordon16)
 
-Nicolás Iago Aguado: [Github]()
+Nicolás Iago Aguado: [Github](https://github.com/niconik)
 
 Yago Moreno: [Github](https://github.com/ymoreno2022)
 
-Bruno Sanchís: [Github]()
+Bruno Sanchís: [Github](https://github.com/brsado)
 
 Andres Ramirez: [Github](https://github.com/andresramirezzz)
 
