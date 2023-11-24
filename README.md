@@ -17,7 +17,7 @@ The first step you need to follow is to press on the three lines on the top righ
 
 Download the 'requirements.txt' and the 'LanguageHUB.py' files. Save them in the same folder you have used to create the project, as previously explained.
 
-Then, install the requirements in your Python console/terminal.
+Then, install the requirements in your Python terminal.
 
 
 ```python
