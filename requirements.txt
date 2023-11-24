@@ -1,4 +1,4 @@
 python-docx
-googletrans
+googletrans==3.1.0a0
 prettytable
 colorama
