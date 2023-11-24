@@ -70,6 +70,8 @@ Yago Moreno: [Github](https://github.com/ymoreno2022)
 
 Bruno Sanchís: [Github]()
 
+Andres Ramirez: [Github](https://github.com/andresramirezzz)
+
 ## Acknowledgements
 
 This project could have not been possible without the inspiration on [translator.py](https://github.com/codebasics/cool_python_apps/blob/main/1_language_translate/translator.py) from [codebasics](https://github.com/codebasics) and their project [cool_python_apps](https://github.com/codebasics/cool_python_apps)
