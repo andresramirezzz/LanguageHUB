@@ -13,7 +13,9 @@ Firstly, install [Python](https://www.python.org/downloads/) and [PyCharm](https
 
 Once you have installed both programs you are ready to begin using LanguageHUB.
 
-Download the 'requirements.txt' and the 'LanguageHUB.py' files. Save them in a folder which would be your environment/directory.
+The first step you need to follow is to press on file, new project and make sure you save the project in a location you know, as you will have to download some documents in the same location of the python project. 
+
+Download the 'requirements.txt' and the 'LanguageHUB.py' files. Save them in the same folder you have used to create the project, as previously explained.
 
 Then, install the requirements in your Python console/terminal.
 
