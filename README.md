@@ -1,8 +1,19 @@
+
 # LanguageHUB
 
 LanguageHUB is a Python program created by IE Students that allows you to translate script and .docx documents to more than 30 different languages without needing internet. 
 
-
+# Table of contents
+1. Description
+2. Installation
+3. Usage
+4. Further Improvements
+5. Support
+6. Roadmap
+7. Authors
+8. Acknowledgements
+9. License
+   
 ## Description
 
 Our application uses OOP for initializing the translation program called LanguageHUB. The class contains two methods; one for text and another one for document. Depending on what the user chooses, the program will run one or another. The text is translated thanks to the library googletranslator, which includes the function Translator(). These was the most efficient and effective way of achieving a fully-working program. We also tried to include an audio-to-transcript translation but that was not feasible with out current Python knowledge. Despite this, we expect to improve and add this extension tool.
@@ -52,6 +63,8 @@ For the document translator, the program asks the user to upload the .docx docum
 
 ### Text translator
 For the text translator, the program asks the user for the text that they want to translate. After this, the source language is auto-detected and the program only asks the user for the destination language. Then, the translated text is printed in the console.
+
+## Further Imprvements
 
 ## Support
 In case of any problem, you could contact Nicolás Iago Aguado, which is the person in charge for attending public FAQ and issues. The email is:
