@@ -67,9 +67,6 @@ For the text translator, the program asks the user for the text that they want t
 ## Further Improvements
 - [ ] We should shorten the implementation steps; are very long.
 - [ ] Searching the files in the folders is not dynamic.
-- [ ] 
-- [ ] 
-- [ ] 
 
 ## Support
 In case of any problem, you could contact Nicolás Iago Aguado, which is the person in charge for attending public FAQ and issues. The email is:
