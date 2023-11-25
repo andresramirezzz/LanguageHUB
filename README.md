@@ -11,7 +11,7 @@ Our application uses OOP for initializing the translation program called Languag
 ## Installation
 Firstly, install [Python](https://www.python.org/downloads/) and [PyCharm](https://www.jetbrains.com/pycharm/download/).
 
-Once you have installed both programs you are ready to begin using LanguageHUB.
+Once you have installed both programs you are ready to begin using LanguageHUB. Open up Pycharm and and follow the instructions below.
 
 The first step you need to follow is to create a folder in your computer in a place you will remember. This is very important, as if you don't save the documents you are willing to translate, and some files we will ask you to download later, the LanguageHUB won't be able to help you.
 
