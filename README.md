@@ -11,11 +11,11 @@ Our application uses OOP for initializing the translation program called Languag
 ## Installation
 Firstly, install [Python](https://www.python.org/downloads/) and [PyCharm](https://www.jetbrains.com/pycharm/download/).
 
-Once you have installed both programs you are ready to begin using LanguageHUB. Open up Pycharm and and follow the instructions below.
+Once you have installed both programs you are ready to begin using LanguageHUB.
 
 The first step you need to follow is to create a folder in your computer in a place you will remember. This is very important, as if you don't save the documents you are willing to translate, and some files we will ask you to download later, the LanguageHUB won't be able to help you.
 
-Once you have created this folder,  open up Python, press on the three lines on the top left side, then click on file, new project and make sure you save the project in the previously created folder. In order for you to check where you are saving this new project you will have to look on the top of the emergent window, where it says "Location:",  if the following path leads to your folder you are done and can press "Create" on the botton right. If the path isn't leading you to the folder you created, click on the small folder at the right of the bar and look for the folder you created, once you find it click on top of it and then press on "Ok", now you are good to go and can press on "Create" at the bottom right.
+Once you have created this folder,  open up Pycharm, press on the three lines on the top left side, then click on file, new project and make sure you save the project in the previously created folder. In order for you to check where you are saving this new project you will have to look on the top of the emergent window, where it says "Location:",  if the following path leads to your folder you are done and can press "Create" on the botton right. If the path isn't leading you to the folder you created, click on the small folder at the right of the bar and look for the folder you created, once you find it click on top of it and then press on "Ok", now you are good to go and can press on "Create" at the bottom right.
 
 Download the 'requirements.txt' and the 'LanguageHUB.py' files. Save them in the same folder you have used to create the project, as previously explained.
 
