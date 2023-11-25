@@ -30,7 +30,7 @@ Once you have created this folder,  open up Pycharm, press on the three lines on
 
 Download the 'requirements.txt' and the 'LanguageHUB.py' files. Save them in the same folder you have used to create the project, as previously explained.
 
-Then, install the requirements in your Python terminal.
+Then, install the requirements in your Pycharm terminal.
 
 
 ```python
