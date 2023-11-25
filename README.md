@@ -1,3 +1,17 @@
+# Table of contents
+1. LanguageHUB
+3. Installation
+4. Usage
+5. Further Improvements
+8. Support
+9. Roadmap
+10. Authors
+11. Acknowledgements
+12. License
+
+Credits
+
+
 # LanguageHUB
 
 LanguageHUB is a Python program created by IE Students that allows you to translate script and .docx documents to more than 30 different languages without needing internet. 
@@ -8,7 +22,7 @@ LanguageHUB is a Python program created by IE Students that allows you to transl
 Our application uses OOP for initializing the translation program called LanguageHUB. The class contains two methods; one for text and another one for document. Depending on what the user chooses, the program will run one or another. The text is translated thanks to the library googletranslator, which includes the function Translator(). These was the most efficient and effective way of achieving a fully-working program. We also tried to include an audio-to-transcript translation but that was not feasible with out current Python knowledge. Despite this, we expect to improve and add this extension tool.
 
 
-## Installation
+# Installation
 Firstly, install [Python](https://www.python.org/downloads/) and [PyCharm](https://www.jetbrains.com/pycharm/download/).
 
 Once you have installed both programs you are ready to begin using LanguageHUB.
@@ -34,7 +48,7 @@ Run the code in the terminal and enjoy!
 python LanguageHUB.py
 ```
 
-## Usage
+# Usage
 If every step was followed, the program should print the following message: 
 
 ```python 
@@ -53,15 +67,17 @@ For the document translator, the program asks the user to upload the .docx docum
 ### Text translator
 For the text translator, the program asks the user for the text that they want to translate. After this, the source language is auto-detected and the program only asks the user for the destination language. Then, the translated text is printed in the console.
 
-## Support
+# Further Improvements
+
+# Support
 In case of any problem, you could contact Nicolás Iago Aguado, which is the person in charge for attending public FAQ and issues. The email is:
 
 n.aguado.ieu2022@student.ie.edu
 
-## Roadmap
+# Roadmap
 We are planning on improving the program display, make it more like an app and not just a Python program. In addition, we would like to include PDF translator and audio translator for the next version.
 
-## Authors
+# Authors
 Rubén Segura: [Github](https://github.com/rubensegu)
 
 Gonzalo Mir: [Github](https://github.com/gonzalomirr)
@@ -76,13 +92,13 @@ Bruno Sanchís: [Github](https://github.com/brsado)
 
 Andres Ramirez: [Github](https://github.com/andresramirezzz)
 
-## Acknowledgements
+# Acknowledgements
 
 This project could have not been possible without the inspiration on [translator.py](https://github.com/codebasics/cool_python_apps/blob/main/1_language_translate/translator.py) from [codebasics](https://github.com/codebasics) and their project [cool_python_apps](https://github.com/codebasics/cool_python_apps)
 
 Also, another inspiration project was [Docx-Translator](https://github.com/karayaman/Docx-Translator/blob/master/main.py) from [Karayaman](https://github.com/karayaman)
 
-## License
+# License
 
 Copyright (c) [2023] [LanguageHUB]
 
