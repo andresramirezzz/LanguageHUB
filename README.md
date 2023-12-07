@@ -28,9 +28,13 @@ Once you have installed both programs you are ready to begin using LanguageHUB.
 
 ### Create Folder
 
-The first step you need to follow is to create a folder in your computer in a place you will remember. This is very important, as you will need to save ['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['LanguageHUB.py'](/LanguageHUB) in the same folder / environment, please download the files but don't save them in the folder yet. It is recommended to create a folder on the desktop of your computer for easy access
+The first step you need to follow is to create a folder in your computer in a place you will remember. This is very important, as you will need to save ['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['LanguageHUB'](/LanguageHUB) in the same folder / environment later. Remember to download the code for your corresponding software; either Windows&Linux or MacOS, if not, the display of the GUI can be changed. 
+
+It is recommended to create a folder on the desktop of your computer for easy access. 
 
 Files >> Desktop >> 'Right Click' >> New Folder >> type: 'LanguageHUB'
+
+Please, do not save the files yet. Wait until its respective step. Thank you!
 
 ### Create PyCharm Environment
 
@@ -100,7 +104,7 @@ Run the code in the terminal and enjoy!
 
 ![Image 11](instruction_images/step12.png)
 
-
+IN CASE OF ANY ISSUE, CONSULT [Support](#Support), WHERE COMMON ERROR SOLUTIONS AND CONTACT IS PROVIDED
 
 ## Usage
 If every step was followed, the program should open the following window: 
@@ -155,6 +159,32 @@ Done! Your Python environment should look like the image below.
 In case of any problem, you could contact Nicolás Iago Aguado, which is the person in charge for attending public FAQ and issues. The email is:
 
 n.aguado.ieu2022@student.ie.edu
+
+### Common error: Configure Python Interpreter
+
+If you have encountered this error, here is the solution. 
+
+Your screen might look like this: 
+
+![Image 80](instruction_images/error1.png)
+
+Click on 'Configure Python Interpreter':
+
+![Image 81](instruction_images/error2.png)
+
+Choose Pyhton 3.11 as the interpreter
+
+![Image 54](instruction_images/error3.png)
+
+Now, install the requirements again
+
+![Image 23](instruction_images/error4.png)
+
+Wait until the loading bar is completed 
+
+![Image 55](instruction_images/error5.png)
+
+Done! Run the code to use LanguageHUB again. 
 
 ## Roadmap
 We are planning on improving the program display, make it more like an app and not just a Python program. In addition, we would like to include PDF translator and audio translator for the next version.
