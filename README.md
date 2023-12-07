@@ -42,6 +42,10 @@ Step 1: Open PyCharm and create a 'New Project'
 
 Step 2: Change the project directory to the folder you previously created
 
+![Image 3](instruction_images/step3.png)
+
+Step 3: Select the folder you created before as your PyCharm project directory
+
 #### In Windows:
 
 ![Image 90](instruction_images/step90.png)
@@ -49,10 +53,6 @@ Step 2: Change the project directory to the folder you previously created
 #### In Mac:
 
 ![Image 2](instruction_images/step2.png)
-
-Step 3: Select the folder you created before as your PyCharm project directory
-
-![Image 3](instruction_images/step3.png)
 
 Step 4: Create the project
 
