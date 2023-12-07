@@ -28,7 +28,7 @@ Once you have installed both programs you are ready to begin using LanguageHUB.
 
 ### Create Folder
 
-The first step you need to follow is to create a folder in your computer in a place you will remember. This is very important, as you will need to save ['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['LanguageHUB.py'](LanguageHUB.py) in the same folder / environment. It is recommended to create a folder on the desktop of your computer for easy access
+The first step you need to follow is to create a folder in your computer in a place you will remember. This is very important, as you will need to save ['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['LanguageHUB.py'](LanguageHUB.py) in the same folder / environment,, please download the files but don't save them in the folder yet. It is recommended to create a folder on the desktop of your computer for easy access
 
 Files >> Desktop >> 'Right Click' >> New Folder >> type: 'LanguageHUB'
 
@@ -71,6 +71,8 @@ Step 6: The outlook of the environment
 ![Image 6](instruction_images/step6.png)
 
 ### Open LanguageHUB.py with PyCharm
+
+Now, please move the files we previously downloaded into the folder you used to create the enviroment.
 
 The next step is the final one. Open the 'LanguageHUB.py' file which is the one containing the program with PyCharm.
 
