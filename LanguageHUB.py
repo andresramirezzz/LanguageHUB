@@ -14,7 +14,7 @@ class MainMenu:
         self.root = root
         self.root.title("Main Menu")
 
-        self.root.geometry("750x550")
+        self.root.geometry("750x650")
 
         self.root.configure(bg="#001F3F")
 
@@ -28,8 +28,8 @@ class MainMenu:
         welcome_label = tk.Label(root, text="LanguageHUB", font=("DIN Alternate", 72, "bold"), fg="white", bg="#001F3F")
         welcome_label.pack(pady=0)
 
-        title_button_style = {"font": ("Arial", 16, "bold"), "fg": "#003366", "bg": "#001F3F", "relief": tk.GROOVE, "bd": 3, "padx": 15, "pady": 10}
-        close_button_style = {"font": ("Arial", 12, "bold"), "fg": "#003366", "bg": "#001F3F", "relief": tk.GROOVE, "bd": 3, "padx": 10, "pady": 5}
+        title_button_style = {"font": ("Arial", 16, "bold"), "fg": "white", "bg": "#001F3F", "relief": tk.GROOVE, "bd": 3, "padx": 15, "pady": 10}
+        close_button_style = {"font": ("Arial", 12, "bold"), "fg": "white", "bg": "#001F3F", "relief": tk.GROOVE, "bd": 3, "padx": 10, "pady": 5}
 
         text_translation_button = tk.Button(root, text="Text Translation", command=self.text_translation, **title_button_style)
         text_translation_button.pack(pady=20)
