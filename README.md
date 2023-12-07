@@ -72,7 +72,7 @@ Step 5: The outlook of the environment
 
 ### Open LanguageHUB.py with PyCharm
 
-Now, please move the files we previously downloaded (['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['LanguageHUB.py'](LanguageHUB.py)) into the folder you used to create the enviroment in your desktop. The files should be found in the 'Downloads' folder in your 'File Explorer'.
+Now, please  download (['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['LanguageHUB.py'](LanguageHUB.py)) into the folder you used to create the enviroment in your desktop. The files should be found in the 'Downloads' folder in your 'File Explorer'.
 
 The environment should look like this if the files were saved correctly
 
