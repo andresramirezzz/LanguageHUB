@@ -106,11 +106,11 @@ class texttranslator_window:
         self.textbox2.place(x=400, y=170)
 
         translate_button = tk.Button(self.root, text="Translate", borderwidth=2, **close_button_style, cursor="hand2", command=self.translate, width=8)
-        translate_button.place(x=240, y=410)
+        translate_button.place(x=240, y=420)
 
         clear_button = tk.Button(self.root, text="Clear", **close_button_style, borderwidth=2,
                              cursor="hand2", command=self.clear, width=8)
-        clear_button.place(x=400, y=410)
+        clear_button.place(x=400, y=420)
 
     def translate(self):
         txt_input = self.textbox1.get("1.0", "end-1c")
