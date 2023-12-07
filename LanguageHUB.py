@@ -19,7 +19,7 @@ class MainMenu:
         self.root.configure(bg="#001F3F")
 
         icon_image = tk.PhotoImage(file="LanguageHUB_icon.png") 
-        resized_icon = icon_image.subsample(6, 6
+        resized_icon = icon_image.subsample(6, 6)
 
         icon_label = tk.Label(root, image=resized_icon, bg="#001F3F")
         icon_label.image = resized_icon
