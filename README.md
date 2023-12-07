@@ -54,17 +54,24 @@ Step 3: Select the folder you created before as your PyCharm project directory
 
 ![Image 2](instruction_images/step3.png)
 
+Extra step: Repeat the process in the Python Interpreter
+
+![Image 2](instruction_images/extrastep.png)
+
 Step 4: Create the project
 
 ![Image 4](instruction_images/step4.png)
 
 Step 5: The outlook of the environment
 
-![Image 6](instruction_images/step6.png)
+![Image 6](instruction_images/step61.png)
 
 ### Open LanguageHUB.py with PyCharm
 
 Now, please move the files we previously downloaded into the folder you used to create the enviroment.
+The environment should look like this if the files were saved correctly
+
+![Image 6](instruction_images/step6.png)
 
 The next step is the final one. Open the 'LanguageHUB.py' file which is the one containing the program with PyCharm.
 
