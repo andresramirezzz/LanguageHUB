@@ -9,7 +9,7 @@ import os
 import subprocess
 import platform
 
-class MainMenu:
+class LanguageHUB:
     def __init__(self, root):
         self.root = root
         self.root.title("Main Menu")
@@ -59,7 +59,7 @@ class MainMenu:
 class texttranslator_window:
     def __init__(self, root):
         self.root = root
-        self.root.title("Translator")
+        self.root.title("LanguageHUB - Text Translator")
         self.root.geometry("750x550")
         self.root.resizable(False, False)
         self.root.configure(bg="#001F3F")
@@ -141,7 +141,7 @@ class texttranslator_window:
 class doctranslator_window:
     def __init__(self, root):
         self.root = root
-        self.root.title("Translator")
+        self.root.title("LanguageHUB - Document Translator")
         self.root.geometry("750x550")
         self.root.resizable(False, False)
         self.root.configure(bg="#001F3F")
@@ -210,7 +210,7 @@ class doctranslator_window:
         self.textbox2 = Text(self.root, width=30, height=0.8, borderwidth=4, font=('DIN Alternate', 14), pady=5, relief=RIDGE)
         self.textbox2.place(x=405, y=330)
 
-        translate_button = tk.Button(self.root, text="Translate", borderwidth=2, **other_button_style, cursor="hand2", command=self.translate2, width=8)
+        translate_button = tk.Button(self.root, text="Translate", borderwidth=2, **other_button_style, cursor="hand2", command=self.Document_Translator, width=8)
         translate_button.place(x=240, y=430)
 
         clear_button = tk.Button(self.root, text="Clear All", **other_button_style, borderwidth=2,
@@ -218,7 +218,7 @@ class doctranslator_window:
         clear_button.place(x=400, y=430)
 
 
-    def translate2(self):
+    def Document_Translator(self):
         sourcename = self.textbox1.get("1.0", "end-1c")
         targetlan = self.cb_choose_langauge.get()
         targetdocname = self.textbox2.get("1.0", "end-1c")
@@ -266,7 +266,7 @@ class doctranslator_window:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = MainMenu(root)
+    app = LanguageHUB(root)
     root.mainloop()
 
 
