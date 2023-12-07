@@ -60,7 +60,7 @@ class texttranslator_window:
     def __init__(self, root):
         self.root = root
         self.root.title("LanguageHUB - Text Translator")
-        self.root.geometry("750x550")
+        self.root.geometry("750x650")
         self.root.resizable(False, False)
         self.root.configure(bg="#001F3F")
 
@@ -84,7 +84,7 @@ class texttranslator_window:
         white_frame = tk.Frame(self.root, bg="white", height=3, width=750)
         white_frame.place(relx=0, rely=0.17, anchor="nw")
 
-        close_button_style = {"font": ("DIN Alternate", 12, "bold"), "fg": "#003366", "bg": "#001F3F", "relief": tk.GROOVE, "bd": 3, "padx": 10, "pady": 5}
+        close_button_style = {"font": ("DIN Alternate", 12, "bold"), "fg": "white", "bg": "#001F3F", "relief": tk.GROOVE, "bd": 3, "padx": 10, "pady": 5}
         close_button = tk.Button(self.root, text="Back", command=self.root.destroy, **close_button_style)
         close_button.place(x=10, y=500)
 
@@ -142,7 +142,7 @@ class doctranslator_window:
     def __init__(self, root):
         self.root = root
         self.root.title("LanguageHUB - Document Translator")
-        self.root.geometry("750x550")
+        self.root.geometry("750x650")
         self.root.resizable(False, False)
         self.root.configure(bg="#001F3F")
         
@@ -181,9 +181,9 @@ class doctranslator_window:
         label = tk.Label(frame, text="How do you want to call the\ntranslated doc?: ",justify="left", font=('Kohinur Bangla', 20), pady = 10, fg="white", bg="#001F3F")
         label.pack()
 
-        other_button_style = {"font": ("DIN Alternate", 18, "bold"), "fg": "#003366", "bg": "#001F3F", "relief": tk.GROOVE, "bd": 3, "padx": 10, "pady": 5}
+        other_button_style = {"font": ("DIN Alternate", 18, "bold"), "fg": "white", "bg": "#001F3F", "relief": tk.GROOVE, "bd": 3, "padx": 10, "pady": 5}
 
-        close_button_style = {"font": ("DIN Alternate", 12, "bold"), "fg": "#003366", "bg": "#001F3F", "relief": tk.GROOVE, "bd": 3, "padx": 10, "pady": 5}
+        close_button_style = {"font": ("DIN Alternate", 12, "bold"), "fg": "white", "bg": "#001F3F", "relief": tk.GROOVE, "bd": 3, "padx": 10, "pady": 5}
         close_button = tk.Button(self.root, text="Back", command=self.root.destroy, **close_button_style)
         close_button.place(x=10, y=500)
 
