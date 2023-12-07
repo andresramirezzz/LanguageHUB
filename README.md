@@ -46,11 +46,11 @@ Step 1: Open PyCharm and create a 'New Project'
 
 Step 2: Change the project directory to the folder you previously created
 
-#### In Windows
+#### In Windows:
 
 ![Image 90](instruction_images/step90.png)
 
-#### In MAC
+#### In Mac:
 
 ![Image 2](instruction_images/step2.png)
 
