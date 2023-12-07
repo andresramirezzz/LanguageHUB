@@ -107,7 +107,21 @@ For the text translator, the program asks the user to type the text that they wa
 ![Image 13](instruction_images/ssstep2.png)
 
 ### Document translator
-For the document translator, the program needs the user to upload the .docx document to the virtual environment and then, firstly. Once the document has been uploaded to the environment / saved in the folder where all the files are located, you can begin. The first step is to introduce the name of the desired-to-translate document. Then, the destination language is asked to the user too. Finally, the desired name for the new translated document. After this, the new translated document will be opened.
+For the document translator, the program needs the user to upload the .docx document to the virtual environment (See below this step how to do it). 
+
+Once the document has been uploaded to the environment / saved in the folder where all the files are located, you can begin. The first step is to introduce the name of the desired-to-translate document. Then, the destination language is asked to the user too. Finally, the desired name for the new translated document. After this, the new translated document will be opened.
+
+Now, run the code and select the option to translate the document
+
+![Image 16](instruction_images/sstep4.png)
+
+This confirmation message should appear if everything was filled correctly
+
+![Image 17](instruction_images/sstep5.png)
+
+Consequently, the translated document should instantly open
+
+![Image 18](instruction_images/sstep6.png)
 
 ### How to upload documents to your environment
 This step is needed in order to translate documents and it is required to have Microsoft Word installed in your computer. It is very simple if you follow the next steps.
@@ -123,18 +137,6 @@ Choose the folder you created previously and where you saved the ['LanguageHUB_i
 Done! Your Python environment should look like the image below.
 
 ![Image 15](instruction_images/sstep3.png)
-
-Now, run the code and translate the document
-
-![Image 16](instruction_images/sstep4.png)
-
-This confirmation message should appear if everything was filled correctly
-
-![Image 17](instruction_images/sstep5.png)
-
-Consequently, the translated document should instantly open
-
-![Image 18](instruction_images/sstep6.png)
 
 ## Further Improvements
 - [ ] We should shorten the implementation steps; are very long.
