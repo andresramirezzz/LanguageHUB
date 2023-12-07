@@ -32,10 +32,6 @@ The first step you need to follow is to create a folder in your computer in a pl
 
 Files >> Desktop >> 'Right Click' >> New Folder >> type: 'LanguageHUB'
 
-The folder should look like this: 
-
-![Image 6](instruction_images/folderlook1.png)
-
 ### Create PyCharm Environment
 
 Once you have created this folder, create a Pycharm environment in this folder. Follow the next steps to do it correctly. The software in the steps is MacOS but in Windows is almost the same, but you may encounter some interface difference
