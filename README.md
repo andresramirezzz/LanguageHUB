@@ -22,47 +22,96 @@ Our application uses OOP for initializing the translation program called Languag
 ## Installation
 Firstly, install [Python](https://www.python.org/downloads/) and [PyCharm](https://www.jetbrains.com/pycharm/download/).
 
-Once you have installed both programs you are ready to begin using LanguageHUB.
+Once you have installed both programs you are ready to begin seeing Elite Estate analysis.
 
-The first step you need to follow is to create a folder in your computer in a place you will remember. This is very important, as if you don't save the documents you are willing to translate, and some files we will ask you to download later, the LanguageHUB won't be able to help you.
+The first step you need to follow is to create a folder in your computer in a place you will remember. This is very important, as you will need to save ['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['eliteestate.py'](LanguageHUB.py) in the same folder / environment. It is recommended to create a folder on the desktop of your computer for easy access
 
-Once you have created this folder,  open up Pycharm, press on the three lines on the top left side, then click on file, new project and make sure you save the project in the previously created folder. In order for you to check where you are saving this new project you will have to look on the top of the emergent window, where it says "Location:",  if the following path leads to your folder you are done and can press "Create" on the botton right. If the path isn't leading you to the folder you created, click on the small folder at the right of the bar and look for the folder you created, once you find it click on top of it and then press on "Ok", now you are good to go and can press on "Create" at the bottom right.
+Files >> Desktop >> 'Right Click' >> New Folder >> type: 'LanguageHUB'
 
-Download the 'requirements.txt' and the 'LanguageHUB.py' files. Save them in the same folder you have used to create the project, as previously explained.
+The folder should look like this: 
 
-Then, install the requirements in your Pycharm terminal.
+![Image 6](instruction_images/folderlook1.png)
 
+
+Once you have created this folder, create a Pycharm environment in this folder. Follow the next steps to do it correctly. The software in the steps is MacOS but in Windows is almost the same, but you may encounter some interface difference
+
+Step 1: Open PyCharm and create a 'New Project'
+![Image 1](instruction_images/step1.png)
+
+Step 2: Change the project directory to the folder you previously created
+![Image 2](instruction_images/step2.png)
+
+Step 3: Select the folder you created before as your PyCharm project directory
+![Image 3](instruction_images/step3.png)
+
+Step 4: Create the project
+![Image 4](instruction_images/step4.png)
+
+Step 5: Create on existing files
+![Image 4](instruction_images/step5.png)
+
+Step 6: The outlook of the environment
+![Image 6](instruction_images/step6.png)
+
+The next step is the final one. Open the 'LanguageHUB.py' file which is the one containing the program with PyCharm.
+
+![Image 7](instruction_images/step7.png)
+
+After this, install the requirements in your Pycharm terminal.
+
+Open Python Terminal:
+![Image 8](instruction_images/step8.png)
 
 ```python
 pip install -r requirements.txt
 ```
+![Image 9](instruction_images/step9.png)
+
+![Image 10](instruction_images/step10.png)
 
 The next step is the final one. Open the 'LanguageHUB.py' file which is the one containing the program. 
 
 Run the code in the terminal and enjoy!
+![Image 11](instruction_images/step11.png)
 
-```python
-python LanguageHUB.py
-```
+
+
 
 ## Usage
-If every step was followed, the program should print the following message: 
+If every step was followed, the program should open the following window: 
 
-```python 
-Hello! Welcome to LanguageHUB.
-Currently we can only translate text or documents, 
-audio will be coming soon. What do you want to translate?
-A text or a document? Answer 'EXIT' if you want to leave 
-the program
-```
+![Image 12](instruction_images/final.png)
 
-Here the user will introduce the two possible options for now, either text or document. Depending on the chosen method, the program will run the text or the document translator. If the response was neither of both, the program will print an error message and will return the question again. There's an option for closing the program, which if chosen, a goodbye message will be displayed.
-
-### Document translator
-For the document translator, the program asks the user to upload the .docx document to the virtual environment and then, to tell the program which name has the document. Then, the desired name for the new translated document is asked to the user too. Finally, the destination language chosen. After this, the translated document will be saved in the virtual environment with the new name previously chosen by the user.
+Here the user will choose the two possible options for now, either text or document. Audio will come soon. Depending on the chosen method, the program will open the text or the document translator. There's an option for closing the program by pressing the bottom left 'Close' button.
 
 ### Text translator
-For the text translator, the program asks the user for the text that they want to translate. After this, the source language is auto-detected and the program only asks the user for the destination language. Then, the translated text is printed in the console.
+For the text translator, the program asks the user to type the text that they want to translate in the first box. After this, the source language is auto-detected and the program only asks the user for the destination language. Then, the translated text is printed in the second box. Look at the example below.
+![Image 13](instruction_images/ssstep1.png)
+![Image 13](instruction_images/ssstep2.png)
+
+### Document translator
+For the document translator, the program needs the user to upload the .docx document to the virtual environment and then, firstly. Once the document has been uploaded to the environment / saved in the folder where all the files are located, you can begin. The first step is to introduce the name of the desired-to-translate document. Then, the destination language is asked to the user too. Finally, the desired name for the new translated document. After this, the new translated document will be opened.
+
+### How to upload documents to your environment
+This step is needed in order to translate documents and it is required to have Microsoft Word installed in your computer. It is very simple if you follow the next steps.
+
+Save the document you desire in your computer. You can do this by clicking on File >> Save as
+![Image 13](instruction_images/sstep1.png)
+
+Choose the folder you created previously and where you saved the ['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['eliteestate.py'](LanguageHUB.py) files.
+![Image 14](instruction_images/sstep2.png)
+
+Done! Your Python environment should look like the image below.
+![Image 15](instruction_images/sstep3.png)
+
+Now, run the code and translate the document
+![Image 16](instruction_images/sstep4.png)
+
+This confirmation message should appear if everything was filled correctly
+![Image 17](instruction_images/sstep5.png)
+
+Consequently, the translated document should instantly open
+![Image 18](instruction_images/sstep6.png)
 
 ## Further Improvements
 - [ ] We should shorten the implementation steps; are very long.
