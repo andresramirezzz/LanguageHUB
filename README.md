@@ -20,9 +20,13 @@ Our application uses OOP for initializing the translation program called Languag
 
 
 ## Installation
+
+###Install Programs
 Firstly, install [Python](https://www.python.org/downloads/) and [PyCharm](https://www.jetbrains.com/pycharm/download/).
 
-Once you have installed both programs you are ready to begin seeing Elite Estate analysis.
+Once you have installed both programs you are ready to begin using LanguageHUB.
+
+### Create Folder
 
 The first step you need to follow is to create a folder in your computer in a place you will remember. This is very important, as you will need to save ['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['eliteestate.py'](LanguageHUB.py) in the same folder / environment. It is recommended to create a folder on the desktop of your computer for easy access
 
@@ -32,48 +36,60 @@ The folder should look like this:
 
 ![Image 6](instruction_images/folderlook1.png)
 
+### Create PyCharm Environment
 
 Once you have created this folder, create a Pycharm environment in this folder. Follow the next steps to do it correctly. The software in the steps is MacOS but in Windows is almost the same, but you may encounter some interface difference
 
 Step 1: Open PyCharm and create a 'New Project'
+
 ![Image 1](instruction_images/step1.png)
 
 Step 2: Change the project directory to the folder you previously created
+
 ![Image 2](instruction_images/step2.png)
 
 Step 3: Select the folder you created before as your PyCharm project directory
+
 ![Image 3](instruction_images/step3.png)
 
 Step 4: Create the project
+
 ![Image 4](instruction_images/step4.png)
 
 Step 5: Create on existing files
+
 ![Image 4](instruction_images/step5.png)
 
 Step 6: The outlook of the environment
+
 ![Image 6](instruction_images/step6.png)
+
+### Open LanguageHUB.py with PyCharm
 
 The next step is the final one. Open the 'LanguageHUB.py' file which is the one containing the program with PyCharm.
 
 ![Image 7](instruction_images/step7.png)
 
+### Requirements installation
+
 After this, install the requirements in your Pycharm terminal.
 
 Open Python Terminal:
+
 ![Image 8](instruction_images/step8.png)
 
 ```python
 pip install -r requirements.txt
 ```
+
 ![Image 9](instruction_images/step9.png)
 
 ![Image 10](instruction_images/step10.png)
 
-The next step is the final one. Open the 'LanguageHUB.py' file which is the one containing the program. 
+### Run the code
 
 Run the code in the terminal and enjoy!
 ![Image 11](instruction_images/step11.png)
-
 
 
 
@@ -99,18 +115,23 @@ Save the document you desire in your computer. You can do this by clicking on Fi
 ![Image 13](instruction_images/sstep1.png)
 
 Choose the folder you created previously and where you saved the ['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['eliteestate.py'](LanguageHUB.py) files.
+
 ![Image 14](instruction_images/sstep2.png)
 
 Done! Your Python environment should look like the image below.
+
 ![Image 15](instruction_images/sstep3.png)
 
 Now, run the code and translate the document
+
 ![Image 16](instruction_images/sstep4.png)
 
 This confirmation message should appear if everything was filled correctly
+
 ![Image 17](instruction_images/sstep5.png)
 
 Consequently, the translated document should instantly open
+
 ![Image 18](instruction_images/sstep6.png)
 
 ## Further Improvements
