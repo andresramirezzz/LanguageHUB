@@ -250,7 +250,7 @@ class doctranslator_window:
 
                 if system_platform == "Windows":
                     # Windows
-                    subprocess.Popen(['start', '""', docx_file_path], shell=True)
+                    subprocess.Popen(['start', 'winword.exe', docx_file_path], shell=True)
                 elif system_platform == "Darwin":
                     # macOS
                     subprocess.Popen(['open', docx_file_path])
