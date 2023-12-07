@@ -89,7 +89,8 @@ pip install -r requirements.txt
 ### Run the code
 
 Run the code in the terminal and enjoy!
-![Image 11](instruction_images/step.png)
+
+![Image 11](instruction_images/step12.png)
 
 
 
