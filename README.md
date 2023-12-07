@@ -112,9 +112,10 @@ For the document translator, the program needs the user to upload the .docx docu
 This step is needed in order to translate documents and it is required to have Microsoft Word installed in your computer. It is very simple if you follow the next steps.
 
 Save the document you desire in your computer. You can do this by clicking on File >> Save as
+
 ![Image 13](instruction_images/sstep1.png)
 
-Choose the folder you created previously and where you saved the ['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['eliteestate.py'](LanguageHUB.py) files.
+Choose the folder you created previously and where you saved the ['LanguageHUB_icon.png'](LanguageHUB_icon.png), ['requirements.txt'](requirements.txt) & ['LanguageHUB.py'](LanguageHUB.py) files.
 
 ![Image 14](instruction_images/sstep2.png)
 
