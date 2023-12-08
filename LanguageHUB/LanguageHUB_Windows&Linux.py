@@ -1,3 +1,13 @@
+from tkinter import Text
+from tkinter import ttk
+from googletrans import Translator  # Make sure to install the 'googletrans==4.0.0-rc1' library
+from tkinter import RIDGE
+import tkinter as tk
+from tkinter import messagebox
+import docx
+import os
+import subprocess
+import platform
 
 class LanguageHUB:
     def __init__(self, root):
