@@ -104,7 +104,7 @@ Run the code in the terminal and enjoy!
 
 ![Image 11](instruction_images/step12.png)
 
-##### IN CASE OF ANY ISSUE, CONSULT [Support](#Support), WHERE COMMON ERROR SOLUTIONS AND CONTACT IS PROVIDED #####
+### IN CASE OF ANY ISSUE, CONSULT [Support](#Support), WHERE COMMON ERROR SOLUTIONS AND CONTACT IS PROVIDED ###
 
 ## Usage
 If every step was followed, the program should open the following window: 
