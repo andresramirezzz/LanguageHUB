@@ -187,7 +187,7 @@ Wait until the loading bar is completed
 Done! Run the code to use LanguageHUB again. 
 
 ## Roadmap
-We are planning on improving the program display, make it more like an app and not just a Python program. In addition, we would like to include PDF translator and audio translator for the next version.
+We are planning on improving the program display, make it more like an app and not just a basic Python interface. In addition, we would like to include PDF translator and audio translator for the next version. These two features require more programming knowledge, so we are open to any suggestions!
 
 ## Authors
 Rubén Segura: [Github](https://github.com/rubensegu)
